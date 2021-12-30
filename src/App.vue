@@ -2,16 +2,19 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <hello-world-two />
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import HelloWorldTwo from "./components/HelloWorld2.vue"
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    HelloWorldTwo
   }
 }
 </script>
