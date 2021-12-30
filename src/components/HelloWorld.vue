@@ -2,6 +2,7 @@
   <div class="hello">
     <div>Hello world</div>
     <div>Hello world4</div>
+    <div>Hello world3</div>
   </div>
 
 </template>
